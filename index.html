@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home Page</title>
+
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="icon" href="img/favicon36c.png" type="image/png">
+	<link rel="shortcut icon" href="img/favicon36.ico">
+
+
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<div id="header">
+				<h2>Home Page</h2>
+				<p>Learn A Lot About Coding</p>
+			</div>
+		</header>
+
+		<nav>
+			<div id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="inside.html">Inside</a></li>
+					<li><a href="#">Menu Item &raquo;</a>
+						<ul>
+							<li><a href="#">Dropdown Item</a></li>
+							<li><a href="#">Dropdown Item &raquo;</a>
+								<ul>
+									<li><a href="#">Sub Dropdown Item</a></li>
+									<li><a href="#">Sub Dropdown Item</a></li>
+									<li><a href="#">Sub Dropdown Item</a></li>
+									<li><a href="#">Sub Dropdown Item</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Dropdown Item</a></li>
+							<li><a href="#">Dropdown Item</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Menu Item</a></li>
+					<li><a href="#">Menu Item</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<section>
+				<div class="slider-wrapper theme-dark">
+					<div id="slider" class="nivoSlider">
+						<img src="img/toystory.jpg" data-thumb="img/toystory.jpg" alt="" />
+						<img src="img/up.jpg" data-thumb="img/up.jpg" alt=""/>
+						<img src="img/walle.jpg" data-thumb="img/walle.jpg" alt="" data-transition="slideInLeft" />
+						<img src="img/nemo.jpg" data-thumb="img/nemo.jpg" alt=""/>
+					</div>
+				</div>
+		
+		</section>
+		
+		<div id="content_wrapper">
+			<div id="content_left">
+				<article id="main_article_single">
+					<h2>Journey of my html and css learning</h2>
+					<div id="imgp_wrap">
+						<img src="img/flower.jpg" alt="Flower Image">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book [...] </p>
+					</div>
+				</article>
+				<article id="main_article_single">
+					<h2>Journey of my html and css learning</h2>
+					<div id="imgp_wrap">
+						<img src="img/Bleach.png" alt="Flower Image">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book [...] </p>
+					</div>
+				</article>
+				<article id="main_article_single">
+					<h2>Journey of my html and css learning</h2>
+					<div id="imgp_wrap">
+						<img src="img/up.jpg" alt="Flower Image">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book [...] </p>
+					</div>
+				</article>
+				<article id="main_article_single">
+					<h2>Journey of my html and css learning</h2>
+					<div id="imgp_wrap">
+						<img src="img/toystory.jpg" alt="Flower Image">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book [...] </p>
+					</div>
+				</article>
+			</div>
+			<div id="content_right">
+				<aside id="main_sidebar">
+					<h2>Sidebar Heading</h2>
+					<ul>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+					</ul>
+				</aside>
+				<aside id="main_sidebar">
+					<h2>Sidebar Heading</h2>
+					<ul>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+					</ul>
+				</aside>
+				<aside id="main_sidebar">
+					<h2>Sidebar Heading</h2>
+					<ul>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+						<li><a href="#">Item</a></li>
+					</ul>
+				</aside>
+			</div>
+		</div>
+		<footer>
+			<div id="footer">
+				<p>&#169;Alrigth Reserved By MIJ.com</p>
+			</div>
+		</footer>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>

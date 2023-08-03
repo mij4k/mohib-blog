@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #056381;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 20px auto;
+}
+
+#header{
+    background-color: #06bbd2;
+    padding: 15px;
+    border-bottom:5px solid #696A08;
+}
+
+#header h2{
+    color: #123140;
+    font-family: poppins;
+}
+
+#header p{
+    color: #EFB4B8;
+    font-family: poppins;
+}
+
+#nav{
+    background-color: #fff;
+    height: 38px;
+    border-bottom: 5px solid #696A08;
+}
+
+#nav ul{
+    background-color: #fff;
+    list-style-type: none;
+    z-index: 999;
+   
+}
+
+#nav ul li{
+    position: relative;
+    float: left;
+    border-right:1px solid #69692A;
+    border-left: 1px solid #7c7c2f;
+}
+
+
+#nav ul li:first-child{
+    border-left: none;
+}
+
+#nav ul li:last-child{
+    border-right:none
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: #8F8F8F ;
+    display: block;
+    padding: 10px 20px;
+    background-color: #fff;
+    font-family: Arial;
+    transition: 0.5s ease;
+}
+#nav ul li a:hover{
+    background-color: #07ADC2;
+    color: #fff;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: -99999px;
+}
+
+nav ul li:hover ul{
+    left: 0;
+    border-top: 5px solid #69692A;
+}
+
+#nav ul li ul li{
+    float: none;
+    border-right:none;
+    border-left: none;
+    border-top: 1px solid #69692A;
+    border-bottom: 1px solid #7c7c2f;
+    width: 200px;   
+}
+
+#nav ul li ul li:last-child{
+    border-bottom: none;
+}
+
+
+#nav ul li ul li:first-child{
+    border-top: 2px solid #69692A;
+}
+
+nav ul li ul li ul {
+    position: absolute;
+    top: -99999px;
+}
+
+nav ul li ul li:hover ul{
+    top: -1px;
+    left: 200px;
+    border-top:none;
+}
+
+#nav ul li ul li ul li{
+    float: none;
+    border-right:none;
+    border-left: 1px solid #69692A;
+    border-top: 1px solid #69692A;
+    border-bottom: 1px solid #7c7c2f;
+    width: 200px;   
+}
+
+#nav ul li ul li ul li:first-child{
+    border-top: none;
+    border-left: 1px solid #69692A;
+}
+
+#content_wrapper{
+    background-color: #fff;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#content_left{
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+}
+
+#content_left h2{
+    color: #696900;
+    font-family: poppins;
+    margin-bottom: 3px;
+}
+
+#content_left p{
+    font-family: poppins;
+    font-size:15px;
+    text-align: justify;
+}
+
+#content_left p{
+    margin: 15px 0;
+}
+
+#content_left h3{
+    color: #696900;
+    font-family: poppins;
+    font-size: 24px;
+}
+
+#content_left img{
+    width: 450px;
+}
+
+#content_left figure{
+    width: 450px;
+    padding: 10px;
+    background: #ddd;
+    display: block;
+    margin: 0 auto;
+}
+
+#content_left figcaption{
+    text-align: center;
+    color: crimson;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+#content_left blockquote{
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    background-color: #ddd;
+    border: 1px solid orange;
+}
+
+#content_right{
+    width: 300px;
+    float: left;
+}
+#content_right h2{
+    font-family: poppins;
+    color: #696900;
+}
+
+#content_right ul li{
+    border-bottom: 1px solid #D5A6A6;
+    margin-bottom: 3px;
+}
+
+#content_right ul li:last-child{
+    border-bottom: none;
+}
+
+#content_right ul li a{
+    text-decoration: none;
+    font-family: poppins;
+    color: #696900;
+    display: block;
+}
+
+
+#footer{
+    background-color: #62553E;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer p{
+    color: #fff;
+}
+
+#main_article_single{
+    margin-bottom: 25px;
+    border-bottom: 2px solid #696A08;
+    overflow: hidden;
+}
+
+#imgp_wrap img{
+    width: 75px;
+    height: 75px;
+    padding: 3px;
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    margin-top: 6px;
+    margin-right: 10px;
+    float: left;
+}
+
+#imgp_wrap p{
+    float: left;
+    width: 500px;
+    margin-top: 0;
+}
+
+#imgp_wrap{
+    margin-top: 5px;
+}
+
+#main_sidebar{
+    border-bottom: 1px solid #69692A;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+}
+
+#main_sidebar ul li{
+    padding-left:10px;
+    list-style-type: none;
+}
+
+#main_sidebar h2{
+    margin-bottom: 10px;
+}
+
+
+
